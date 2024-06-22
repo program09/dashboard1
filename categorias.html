@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <!-- ------------------------------- ICONOS -------------------------------- -->
+    <link rel="stylesheet" href="https://program09.github.io/YORDIALCANTARA/public/css/Icons/css/all.min.css">
+    <link rel="stylesheet" href="public/lib/Icons/css/all.min.css">
+    <!-- --------------------------- BOOTSTRAP 5  CSS -------------------------- -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- ========== Start datatables ========== -->
+
+    <!-- ========== End datatables ========== -->
+    <!-- ------------------------------- JQUERY -------------------------------- -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <!-- ------------------------------- APP STYLE -------------------------------- -->
+    <link rel="stylesheet" href="public/css/style.css">
+    <link rel="stylesheet" href="public/css/style-dark.css">
+
+
+
+</head>
+
+<body class="aside-desktop">
+
+    <header class="header-desk box">
+        <div class="header-left d-flex align-items-center gap-3">
+            <button class="btn-icon-20" title="Mostrar/ocultar aside" id="btn-aside"><i
+                    class="fa-light fa-bars-staggered"></i></button>
+            <img class="logo-1" src="https://cdn.worldvectorlogo.com/logos/syscoin-sys--2.svg" alt="Mi logo">
+        </div>
+        <div class="header-right">
+            <div class="list-button d-flex align-items-center gap-3">
+                <a href="newventa.html" id="btn-new-sales"><button class="btn-primary-1 bg-success"><i
+                            class="fa-light fa-plus"></i> Nueva
+                        venta</button></a>
+                <button class="btn-icon-20" id="btn-theme" title="Cambiar de tema">
+                    <i class="fa-sharp fa-light fa-moon-stars"></i>
+                    <i class="fa-solid fa-sun"></i>
+                </button>
+                <div class="dropdown-1">
+                    <button class="btn-img-1">
+                        <img src="https://cdn-icons-png.flaticon.com/256/622/622851.png" alt="User photo">
+                    </button>
+                    <div class="menu box box-shadow-1">
+                        <div class="menu-1">
+                            <ul class="lista-1-v lista-icon-30 lista-hover-1">
+                                <li class="item-1-v"><a href="perfil.html" class="link"><span><i
+                                                class="fa-light fa-user"></i></span>Perfíl</a></li>
+                                <li class="item-1-v"><a href="ajustes.html" class="link"><span><i
+                                                class="fa-light fa-sliders"></i></span>Ajustes</a></li>
+                                <li class="item-1-v"><a href="login.html" class="link"><span><i
+                                                class="fa-light fa-right-from-bracket"></i></span>Salir</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <div class="content-all">
+        <aside class="aside-content box">
+
+            <div class="aside-body">
+                <ul class="lista-1-v lista-icon-30 lista-hover-1 mb-4">
+                    <li class="item-1-title">Panel de ventas</li>
+                    <li class="item-1-v"><a href="productos.html" class="link txt-point"><span><i
+                                    class="fa-light fa-box"></i></span>Productos</a></li>
+                    <li class="item-1-v"><a href="categorias.html" class="link"><span><i
+                                    class="fa-light fa-box-archive"></i></span>Categorías</a></li>
+                    <li class="item-1-v"><a href="newventa.html" class="link"><span><i
+                                    class="fa-light fa-plus"></i></span>Nueva venta</a></li>
+                    <li class="item-1-v"><a href="ventas.html" class="link"><span><i
+                                    class="fa-light fa-cart-shopping"></i></span>Ventas</a></li>
+                    <li class="item-1-v"><a href="clientes.html" class="link txt-point"><span><i
+                                    class="fa-light fa-users"></i></span>Clientes</a></li>
+                </ul>
+                <ul class="lista-1-v lista-icon-30 lista-hover-1">
+                    <li class="item-1-title">Panel administración</li>
+                    <li class="item-1-v"><a href="trabajadores.html" class="link"><span><i
+                                    class="fa-light fa-shield-check"></i></span>Trabajadores</a></li>
+                    <li class="item-1-v"><a href="sucursales.html" class="link"><span><i
+                                    class="fa-light fa-building"></i></span>Sucursales</a></li>
+                    <li class="item-1-v"><a href="ajustes.html" class="link"><span><i
+                                    class="fa-light fa-sliders"></i></span>Ajustes</a></li>
+                </ul>
+            </div>
+
+        </aside>
+        <main class="main-content">
+            <!-- ========== Start Section name page ========== -->
+            <div class="content-1">
+                <ul class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html">Name</a></li>
+                    <li class="breadcrumb-item"><a href="sucursal.html">Sucursal 1</a></li>
+                    <li class="breadcrumb-item active">Categorías</li>
+                </ul>
+            </div>
+            <!-- ========== End  name page ========== -->
+
+            <div class="content content-main-section">
+                <div class="grid1">
+                    <div class="grid1-item box">
+                        <div class="grid1-content">
+                            <div class="grid1-icon"><i class="fa-light fa-box-archive"></i></div>
+                            <div class="grid1-txt">
+                                <h6>Categorías</h6>
+                                <p>150</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid1-item box">
+                        <div class="grid1-content">
+                            <div class="grid1-icon"><i class="fa-light fa-triangle-exclamation"></i></div>
+                            <div class="grid1-txt">
+                                <h6>Inactivas</h6>
+                                <p>10</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <hr>
+                <section class="containers">
+                    <div class="box section-filter p-3 rounded-5">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-success"><i class="fa-light fa-plus"></i> Agregar
+                                nuevo</button>
+                            <button type="button" class="btn btn-secondary"><i class="fa-light fa-file-spreadsheet"></i>
+                                Agregar desde xls</button>
+                            <button type="button" class="btn btn-primary"><i class="fa-light fa-file-chart-pie"></i>
+                                Reporte xls</button>
+                            <button type="button" class="btn btn-danger"><i class="fa-light fa-file-pdf"></i> Reporte
+                                PDF</button>
+                        </div>
+                    </div>
+                    <div class="box p-3 mt-3 rounded-5">
+                        <div class="table-responsive">
+                            <table class="table align-middle " id="myTable">
+                                <thead class="">
+                                    <tr>
+                                        <th> </th>
+                                        <th>Código</th>
+                                        <th>Categoría</th>
+                                        <th>Estado</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <div class="dropdown dropend">
+                                                <button type="button" class="btn-icon-action" data-bs-toggle="dropdown"><i class="fa-light fa-bars-sort"></i></button>
+                                                <ul class="dropdown-menu box">
+                                                    <li><a class="dropdown-item" href="#">Editar</a></li>
+                                                    <li><a class="dropdown-item" href="#">Eliminar</a></li>
+                                                </ul>
+                                            </div>
+                                        </td>
+                                        <td>Item</td>
+                                        <td>Item</td>
+                                        <td>
+                                            <span class="badge bg-primary">Activo</span>
+                                            <span class="badge bg-danger">Inactivo</span>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <footer><a href="">By Yordi Alcántara Paico</a></footer>
+
+        </main>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="public/js/main.js"></script>
+
+
+
+
+</body>
+
+</html>

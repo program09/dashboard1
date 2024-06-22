@@ -1,0 +1,52 @@
+
+
+body {
+    transition: background-color 0.3s, color 0.3s;
+}
+
+body.dark {
+    background-color: var(--dark-2);
+    color: var(--txt-1);
+}
+
+body.light {
+    background-color: var(--light-2);
+    color: var(--txt-2);
+}
+
+body.dark .fa-moon-stars {
+    display: inline;
+}
+
+body.light .fa-sun {
+    display: inline;
+}
+
+.dark .box{
+    background-color: var(--dark-1);
+}
+
+.dark i{
+    color: var(--txt-1) !important;
+}
+
+.dark a{
+    color: var(--light-1);
+}
+.dark .lista-hover-1 .item-1-v:hover{
+    background-color: var(--dark-2);
+}
+
+.dark .table{
+    color: var(--txt-3);
+    background-color: var(--dark-1) !important;
+}
+
+.dark footer{
+    background-color: var(--dark-1);
+}
+
+.dark input{
+    background-color: var(--dark-2);
+    color: var(--txt-1);
+}
